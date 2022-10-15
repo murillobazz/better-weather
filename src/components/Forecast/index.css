@@ -1,0 +1,60 @@
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.daily-item {
+    background-color: #444;
+    border-radius: 15px;
+    margin: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+.icon-small {
+    width: 40px;
+}
+
+.day {
+    color: #f5f5f5;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.description {
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+    color: #f5f5f5;
+}
+
+.min-max {
+    color: #bbb;
+}
+
+.details-grid {
+    color: #f5f5f5;
+    display: grid;
+    grid-row-gap: 0;
+    grid-column-gap: 2ch;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 15px;
+}
+
+.details-item {
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.details-item label:last-child {
+    font-weight: bold;
+}
